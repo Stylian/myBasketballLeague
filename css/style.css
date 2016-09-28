@@ -1,0 +1,296 @@
+
+body {
+	background-image: url("../images/fists.jpg");
+	font-family: Serif;
+	color: blue;
+}
+
+#season_selector {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#create_season_btn {
+	cursor: pointer;
+}
+
+#wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -450px;
+	margin-left: -768px;
+	width: 1536px;
+	height: 736px;
+	opacity:0.9;
+	background-color: white;
+}
+
+#matchmaker {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 300px;
+	margin-left: -768px;
+	width: 1536px;
+	height: 150px;
+	opacity:0.9;
+	background-color: #dddddd;
+}
+
+#match {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 1536px;
+	height: 50px;
+	margin-left: -768px;
+	margin-top: -25px;
+	text-align: center;
+	display:inline-block;
+}
+
+.match_div {
+	position: relative;
+	display:inline-block;
+	margin-left: 20px;
+	height: 100%;
+	font-size: 36px;
+}
+
+.team_div {
+	width: 400px;
+}
+
+.away_team{
+	text-align: right;
+}
+
+.home_team{
+	text-align: left;
+}
+
+.match_field {
+	width: 40px;
+	height: 36px;
+	text-align: right;
+	font-size: 26px;
+
+}
+
+#save_img {
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#header {
+	float: left;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+}
+
+#inner_wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+#tabs_menu {
+	float: left;
+	width: 100%;
+	background-image: url("../images/blue_pixel.png");
+	background-repeat: repeat-x;
+	background-position: bottom; 
+}
+
+#main_panel {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.inner_main {
+	float: left;
+	width: 100%;
+	display: none;
+	text-align: center;
+}
+
+.tab {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	cursor: pointer;
+	border: 1px solid blue;
+	margin-left: 20px;
+	background-color: #eee;
+}
+
+.active {
+	border-bottom: solid white 1px;
+	background-color: white;
+}
+
+.group_row {
+	width: auto;
+	position: relative;
+	text-align: center;
+	margin-top: 100px;
+	overflow: auto;
+}
+
+.group_wrapper {
+	float: left;
+	text-align: center;
+}
+
+.group_wrapper_r18 {
+	width: 33%;
+}
+
+.group_wrapper_r12 {
+	width: 50%;
+}
+
+.group {
+	display: inline-block;
+	margin: auto;
+	width: 400px;
+	position: relative;
+}
+
+.goup_leag_stand {
+	margin-top: 20px;
+	text-align: left;
+	margin: 50px;
+}
+
+.fixtures {
+	float: right;
+	width: 700px;
+}
+
+.fixtures_table {
+	width: 100%;
+}
+
+.group_table {
+	width: 100%;
+}
+
+tbody {
+	background-color: #eeeeff;
+}
+
+.group_title,
+.fixtures_title {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.fixtures_header {
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.group_header {
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 1px solid blue;
+}
+
+.fixtures_item {
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+	padding: 5px;
+}
+
+.group_item {
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+}
+
+.promotion {
+	background: #d5f6d9;
+}
+
+.elimination {
+	background: #ffcfcc;	
+}
+
+
+.elimination > td{
+    border-top: 1px solid #000;
+}
+
+.l_stand_td {
+	padding-top: 10px;
+}
+
+.round_message {
+	margin-top: 20px;
+}
+
+.generator {
+	cursor: pointer;
+	color: red;
+}
+
+#dayMenu {
+	float: left;
+	width: 100%;
+	background-image: url("../images/blue_pixel.png");
+	background-repeat: repeat-x;
+	background-position: bottom; 
+	margin-top: 20px;
+}
+.day {
+	display: none;
+}
+
+.daySelector {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	border: 1px solid blue;
+	margin-left: 10px;
+	background-color: #eee;
+}
+
+.active_day {
+	border-bottom: solid #fff 1px;
+	background-color: #fff;
+}
+
+.winning_team {
+	font-weight: bold;
+}
+
+#playoffs_table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+.playoff_block {
+	border:1px solid #aaa;
+	background-color: #E6E6E6;
+}
+
+/*
+table.dataTable tr.odd { background-color: #dde; }
+table.dataTable tr.even { background-color: white; }
+*/

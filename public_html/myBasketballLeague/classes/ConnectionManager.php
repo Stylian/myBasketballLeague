@@ -1,7 +1,5 @@
 <?php
 
-require_once "logger.php";
-
 class ConnectionManager {
 
 	private $conn;

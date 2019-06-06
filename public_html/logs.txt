@@ -1,0 +1,3 @@
+2019-06-06 12:34:34 INFO grabbing instance
+2019-06-06 12:34:34 INFO preparing to access the season schema
+2019-06-06 12:34:34 ERROR connection failed. error number: 0b5f02d7
